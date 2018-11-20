@@ -1,0 +1,12 @@
+server:
+  port: 9080
+logging:
+  level:
+    #ROOT: DEBUG
+    org.springframework.web: ERROR
+    com.auth0.samples.bootfaces: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] - %msg%n"
+    #file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+  file: C:/Users/CP680258/mkyong/debug.log
